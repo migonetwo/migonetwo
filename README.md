@@ -20,7 +20,7 @@ I am an **Electrical Engineer** currently enrolled in **MSc in Computer Science*
 
 <br />
 
-<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com?user=ignaciohuill&theme=merko&date_format=j%20M%5B%20Y%5D&card_width=800" alt="GitHub Streak" /></p>
+<p align="center"><img src="https://github-readme-streak-stats.herokuapp.com?user=migonetwo&theme=merko&date_format=j%20M%5B%20Y%5D&card_width=800" alt="GitHub Streak" /></p>
 
 
 
