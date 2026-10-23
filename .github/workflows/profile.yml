@@ -19,6 +19,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           # SETTING_JSON: conf/github-profile-3d-contrib.json
+      - name: Exclude bulk Overleaf import from profile stats
+        run: |
+          python3 scripts/filter_profile_contributions.py \
+            profile-3d-contrib \
+            --exclude 2026-10-02=120 \
+            --exclude 2026-10-03=75
       - name: Commit & Push
         run: |
           git config user.name github-actions
